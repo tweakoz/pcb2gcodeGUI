@@ -77,6 +77,7 @@ MainWindow::MainWindow(QWidget *parent) :
     args[ DRILLARGS ].insert("drill-front", ui->drillfrontCheckBox);
     args[ DRILLARGS ].insert("onedrill", ui->onedrillCheckBox);
     args[ DRILLARGS ].insert("nog81", ui->nog81CheckBox);
+    args[ DRILLARGS ].insert("swapxy", ui->swapXYCheckBox);
 
     args[ OUTLINEARGS ].insert("cutter-diameter", ui->cutterdiameterDoubleSpinBox);
     args[ OUTLINEARGS ].insert("zcut", ui->zcutDoubleSpinBox);

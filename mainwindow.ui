@@ -295,7 +295,7 @@
             <bool>true</bool>
            </property>
            <property name="autoExclusive">
-            <bool>false</bool>
+            <bool>true</bool>
            </property>
           </widget>
          </item>
@@ -311,7 +311,7 @@
             <bool>false</bool>
            </property>
            <property name="autoExclusive">
-            <bool>false</bool>
+            <bool>true</bool>
            </property>
           </widget>
          </item>
@@ -334,7 +334,7 @@
             <bool>true</bool>
            </property>
            <property name="autoExclusive">
-            <bool>false</bool>
+            <bool>true</bool>
            </property>
           </widget>
          </item>
@@ -347,7 +347,7 @@
             <string>Imperial</string>
            </property>
            <property name="autoExclusive">
-            <bool>false</bool>
+            <bool>true</bool>
            </property>
           </widget>
          </item>
@@ -693,6 +693,16 @@
          </property>
          <property name="text">
           <string>nog81</string>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="0">
+        <widget class="QCheckBox" name="swapXYCheckBox">
+         <property name="toolTip">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;replace G81 with G0+G1. This option makes the gcode compatible with low-end cnc controllers (like grbl), but also makes it bigger and less clean&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <property name="text">
+          <string>swapXY</string>
          </property>
         </widget>
        </item>
@@ -1653,7 +1663,7 @@
      <x>0</x>
      <y>0</y>
      <width>795</width>
-     <height>24</height>
+     <height>18</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuFile">
